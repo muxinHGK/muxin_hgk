@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="zh_CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>时钟实例</title>
+</head>  
+<body>  
+<div id="clock"></div>  
+<script>  
+	setInterval(function(){
+    	var time=new Date();
+    	var hour=time.getHours();
+    	var minute=time.getMinutes();
+    	var second=time.getSeconds();
+    	var day;
+    	if(hour<12){
+    		day="AM";
+    	}
+    	else{
+    		day="PM";
+    	}
+    	document.getElementById("clock").innerHTML="TIME is "+(hour>9?hour:('0'+hour))+":"+(minute>9?minute:('0'+minute))+":"+(second>9?second:('0'+second))+" "+day;
+   	},1000);
+</script>  
+</body>  
+</html>  
