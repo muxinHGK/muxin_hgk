@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+
+.div1{
+	position:relative;
+	width:400px;
+	height:400px;
+	overflow:hidden;
+}
+
+.ul1 li{
+	float:left;
+	width:400px;
+	height:400px;
+}
+
+.ul1 li .img{
+	width:400px;
+	height:400px;
+}
+
+.ul1{
+	width:1600px;
+	position:absolute;
+}
+
+.btn{
+	width:400px;
+	position:relative;
+	text-align: center;
+}
+.pre{
+	float:left;
+	width:60px;
+	height:40px;
+}
+
+.next{
+	width:60px;
+	height:40px;
+	float:right;
+}
+
+.auto,.stop{
+	width:60px;
+	height:40px;
+}
+
+			
