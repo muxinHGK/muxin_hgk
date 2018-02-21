@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>俄罗斯方块</title>
+		<link rel="stylesheet" href="css/tetris.css" />
+	</head>
+	<body>
+		<div class="header" style="text-align: center;">
+			<h3>俄罗斯方块</h3>
+		</div>
+		<div class="main">
+			<div class="main-right">
+				<canvas class="nextcanvas"></canvas>
+				分数：<div class="curScoreEle"></div>
+				速度：<div class="curSpeedEle"></div>
+				最高分：<div class="maxScoreEle"></div>
+				<div>
+					<div>上箭头：旋转</div>
+					<div>左箭头：左移</div>
+					<div>右箭头：右移</div>
+					<div>下箭头：下移</div>
+				</div>
+				<input type="button" class="startGameBtn" onclick="startGame()" value="新的游戏">
+				<input type="button" class="pauseGameBtn" onclick="pauseGame()" value="暂停游戏">
+				<input type="button" class="continueGameBtn" onclick="continueGame()" value="继续游戏">
+			</div>
+			<div class="main-left">
+				<canvas class="canvas" width="350" height="500"></canvas>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/tetris.js" ></script>
+	</body>
+</html>

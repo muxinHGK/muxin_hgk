@@ -1,0 +1,31 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+body{
+	margin:0 auto;
+	width:455px;
+}
+.main{
+	position:relative;
+	width:455px;
+}
+
+.main-left{
+	height:500px;
+	margin-right: 105px;
+}
+
+.main-right{
+	width:100px;
+	height:500px;
+	float:right;
+	border: 1px solid black;
+}
+
+.startGameBtn,.pauseGameBtn,.continueGameBtn{
+	width:75px;
+	height:25px;
+	margin-top:25px;
+}
