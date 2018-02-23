@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+body{
+	width:500px;
+}
+.header{
+	text-align: center;
+	height:50px;
+	margin-top: 10px;
+	background-color:gold 
+}
+
+.addToDoList{
+	margin:0 auto;
+	text-align: center;
+	height:50px;
+	width:100%;
+	background-color: gray;
+}
+
+label{
+	line-height:50px;
+}
+
+h3{
+	color:blue;
+}
+
+span{
+	padding-left: 10px;
+	color:greenyellow;
+}
+
+li{
+	position:relative;
+}
+
+li p{
+	display: inline;
+}
+.changeStatus{
+	position:absolute;
+	right:75px;
+	border-radius: 5px;
+	margin-right:10px;
+	color:yellow;
+}
+.deleteTodo,.deleteDone{
+	position:absolute;
+	right:0px;
+	border-radius: 5px;
+	margin-left:10px;
+	color:yellow;
+}
+
+.clearAll{
+	text-align: center;
+}
+.clearAllBtn{
+	width:100px;
+	height:25px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-left:10px;	
+	color:yellow;
+}

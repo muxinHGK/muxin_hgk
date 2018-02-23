@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/todoList.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1>My ToDoList</h1>
+		</div>
+		
+		<div class="addToDoList">
+			<label for="addToDoListID">Add List:</label>
+			<input type="text" id="addToDoListID" class="addToDoListClass" maxlength="20" placeholder="input here">
+		</div>
+		
+		<div class="content">
+			<h3>未完成<span class="todoCount">0</span></h3>
+			<ol class="todoList"></ol>
+			<h3>已完成<span class="doneCount">0</span></h3>
+			<ol class="doneList"></ol>
+		</div>
+		
+		<div class="clearAll">
+			<input type="button" class="clearAllBtn" value="clearAll" onclick="clearAll()"> 
+		</div>
+		<script src="js/todoList.js"></script>
+	</body>
+</html>
