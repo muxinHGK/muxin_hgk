@@ -1,0 +1,15 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+.container{
+	width:400px;
+	height:400px;
+}
+
+.img{
+	height:400px;
+	width:400px;
+}
